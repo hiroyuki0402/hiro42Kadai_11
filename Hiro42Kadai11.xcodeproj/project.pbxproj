@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4761A7271C2E9A00218116 /* prefecture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4761A6271C2E9A00218116 /* prefecture.storyboard */; };
 		3BB8C65C271AFB0B00A98389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8C65B271AFB0B00A98389 /* AppDelegate.swift */; };
 		3BB8C65E271AFB0B00A98389 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8C65D271AFB0B00A98389 /* SceneDelegate.swift */; };
-		3BB8C660271AFB0B00A98389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8C65F271AFB0B00A98389 /* ViewController.swift */; };
 		3BB8C663271AFB0B00A98389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB8C661271AFB0B00A98389 /* Main.storyboard */; };
 		3BB8C665271AFB0C00A98389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB8C664271AFB0C00A98389 /* Assets.xcassets */; };
 		3BB8C668271AFB0C00A98389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB8C666271AFB0C00A98389 /* LaunchScreen.storyboard */; };
 		3BB8C673271AFB0D00A98389 /* Hiro42Kadai11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8C672271AFB0D00A98389 /* Hiro42Kadai11Tests.swift */; };
 		3BB8C67E271AFB0D00A98389 /* Hiro42Kadai11UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8C67D271AFB0D00A98389 /* Hiro42Kadai11UITests.swift */; };
+		3BB8C68C271AFCBB00A98389 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8C68B271AFCBB00A98389 /* InputViewController.swift */; };
+		3BB8C68E271AFD0500A98389 /* ChoicePrefecturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8C68D271AFD0500A98389 /* ChoicePrefecturesViewController.swift */; };
+		3BB8C693271AFDC900A98389 /* CellForSelectingAValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8C691271AFDC900A98389 /* CellForSelectingAValue.swift */; };
+		3BB8C694271AFDC900A98389 /* CellForSelectingAValue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BB8C692271AFDC900A98389 /* CellForSelectingAValue.xib */; };
+		3BB8C696271AFEA100A98389 /* Prefectures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8C695271AFEA100A98389 /* Prefectures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B4761A6271C2E9A00218116 /* prefecture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = prefecture.storyboard; sourceTree = "<group>"; };
 		3BB8C658271AFB0B00A98389 /* Hiro42Kadai11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiro42Kadai11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB8C65B271AFB0B00A98389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BB8C65D271AFB0B00A98389 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BB8C65F271AFB0B00A98389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BB8C662271AFB0B00A98389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BB8C664271AFB0C00A98389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BB8C667271AFB0C00A98389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		3BB8C679271AFB0D00A98389 /* Hiro42Kadai11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hiro42Kadai11UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB8C67D271AFB0D00A98389 /* Hiro42Kadai11UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiro42Kadai11UITests.swift; sourceTree = "<group>"; };
 		3BB8C67F271AFB0D00A98389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB8C68B271AFCBB00A98389 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		3BB8C68D271AFD0500A98389 /* ChoicePrefecturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicePrefecturesViewController.swift; sourceTree = "<group>"; };
+		3BB8C691271AFDC900A98389 /* CellForSelectingAValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForSelectingAValue.swift; sourceTree = "<group>"; };
+		3BB8C692271AFDC900A98389 /* CellForSelectingAValue.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForSelectingAValue.xib; sourceTree = "<group>"; };
+		3BB8C695271AFEA100A98389 /* Prefectures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefectures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4761A2271C2D8200218116 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				3BB8C691271AFDC900A98389 /* CellForSelectingAValue.swift */,
+				3BB8C692271AFDC900A98389 /* CellForSelectingAValue.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		3B4761A3271C2DBD00218116 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BB8C68B271AFCBB00A98389 /* InputViewController.swift */,
+				3BB8C68D271AFD0500A98389 /* ChoicePrefecturesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B4761A4271C2DD700218116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BB8C695271AFEA100A98389 /* Prefectures.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B4761A5271C2DFC00218116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B4761A6271C2E9A00218116 /* prefecture.storyboard */,
+				3BB8C661271AFB0B00A98389 /* Main.storyboard */,
+				3BB8C666271AFB0C00A98389 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3BB8C64F271AFB0B00A98389 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +145,13 @@
 		3BB8C65A271AFB0B00A98389 /* Hiro42Kadai11 */ = {
 			isa = PBXGroup;
 			children = (
+				3B4761A4271C2DD700218116 /* Model */,
+				3B4761A5271C2DFC00218116 /* View */,
+				3B4761A3271C2DBD00218116 /* Controller */,
+				3B4761A2271C2D8200218116 /* Xib */,
 				3BB8C65B271AFB0B00A98389 /* AppDelegate.swift */,
 				3BB8C65D271AFB0B00A98389 /* SceneDelegate.swift */,
-				3BB8C65F271AFB0B00A98389 /* ViewController.swift */,
-				3BB8C661271AFB0B00A98389 /* Main.storyboard */,
 				3BB8C664271AFB0C00A98389 /* Assets.xcassets */,
-				3BB8C666271AFB0C00A98389 /* LaunchScreen.storyboard */,
 				3BB8C669271AFB0C00A98389 /* Info.plist */,
 			);
 			path = Hiro42Kadai11;
@@ -138,6 +185,7 @@
 				3BB8C654271AFB0B00A98389 /* Sources */,
 				3BB8C655271AFB0B00A98389 /* Frameworks */,
 				3BB8C656271AFB0B00A98389 /* Resources */,
+				3B7BE2A9271B008A006270F7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -233,6 +281,8 @@
 			files = (
 				3BB8C668271AFB0C00A98389 /* LaunchScreen.storyboard in Resources */,
 				3BB8C665271AFB0C00A98389 /* Assets.xcassets in Resources */,
+				3B4761A7271C2E9A00218116 /* prefecture.storyboard in Resources */,
+				3BB8C694271AFDC900A98389 /* CellForSelectingAValue.xib in Resources */,
 				3BB8C663271AFB0B00A98389 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +303,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B7BE2A9271B008A006270F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\n  echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BB8C654271AFB0B00A98389 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BB8C660271AFB0B00A98389 /* ViewController.swift in Sources */,
+				3BB8C693271AFDC900A98389 /* CellForSelectingAValue.swift in Sources */,
 				3BB8C65C271AFB0B00A98389 /* AppDelegate.swift in Sources */,
+				3BB8C696271AFEA100A98389 /* Prefectures.swift in Sources */,
 				3BB8C65E271AFB0B00A98389 /* SceneDelegate.swift in Sources */,
+				3BB8C68C271AFCBB00A98389 /* InputViewController.swift in Sources */,
+				3BB8C68E271AFD0500A98389 /* ChoicePrefecturesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
