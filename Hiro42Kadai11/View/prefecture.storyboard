@@ -35,7 +35,13 @@
                             </constraints>
                         </tableViewCellContentView>
                     </tableViewCell>
-                    <navigationItem key="navigationItem" id="Thr-XN-QA7"/>
+                    <navigationItem key="navigationItem" id="Thr-XN-QA7">
+                        <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="5gi-ld-35a">
+                            <connections>
+                                <action selector="backButton:" destination="wfL-dX-FOn" id="E1Q-lv-laf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="prefectureTableView" destination="JIp-zS-b8X" id="2oe-q0-SQR"/>
                     </connections>
@@ -47,7 +53,7 @@
         <!--Navigation Controller-->
         <scene sceneID="vt4-D3-9cy">
             <objects>
-                <navigationController storyboardIdentifier="UINavigationController-SPi-aN-smt" automaticallyAdjustsScrollViewInsets="NO" id="SPi-aN-smt" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="UINavigationController-SPi-aN-smt" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SPi-aN-smt" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="K0T-4R-T4S">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

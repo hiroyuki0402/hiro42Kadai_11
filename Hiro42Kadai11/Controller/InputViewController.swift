@@ -19,10 +19,13 @@ class InputViewController: UIViewController {
         print(prefectureLabel.text!)
     }
     @IBAction private func choicePrefectureButton(_ sender: Any) {
-        guard let choiceVc = storyboard?.instantiateViewController(identifier: "prefecture")
+        guard let storyboard: UIStoryboard = self.storyboard else { return }
+        guard let choiceVc = storyboard.instantiateViewController(identifier: "prefecture")
                 as? ChoicePrefecturesViewController else { return }
+        let navigationController = UINavigationController(rootViewController: choiceVc)
+        navigationController.modalPresentationStyle = .fullScreen
         choiceVc.delegate = self
-        present(choiceVc, animated: true)
+        present(navigationController, animated: true)
     }
 }
 extension InputViewController: ChoicePrefecturesViewControllerDelegate {

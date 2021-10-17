@@ -45,7 +45,7 @@
                                         <state key="normal" title="選択"/>
                                         <connections>
                                             <action selector="choicePrefectureButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U5J-O2-96O"/>
-                                            <segue destination="fWR-Bn-HLV" kind="presentation" modalPresentationStyle="fullScreen" id="278-gZ-ASV"/>
+                                            <segue destination="fWR-Bn-HLV" kind="show" id="278-gZ-ASV"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -74,7 +74,9 @@
         <!--UINavigationController-SPi-aN-smt-->
         <scene sceneID="mWd-ve-KkH">
             <objects>
-                <viewControllerPlaceholder storyboardName="prefecture" referencedIdentifier="UINavigationController-SPi-aN-smt" id="fWR-Bn-HLV" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="prefecture" referencedIdentifier="UINavigationController-SPi-aN-smt" id="fWR-Bn-HLV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="KWQ-jD-r6u"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lvl-ta-M6T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2115.9420289855075" y="51.5625"/>
@@ -85,7 +87,7 @@
                 <viewControllerPlaceholder storyboardIdentifier="prefecture" storyboardName="prefecture" referencedIdentifier="prefecture" id="1v2-MY-7xv" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpb-1Q-BOz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2006" y="76"/>
+            <point key="canvasLocation" x="2061" y="88"/>
         </scene>
     </scenes>
     <resources>

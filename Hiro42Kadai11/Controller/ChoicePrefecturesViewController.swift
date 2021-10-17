@@ -50,4 +50,8 @@ class ChoicePrefecturesViewController: UIViewController, UITableViewDelegate, UI
         prefectureTableView.register(CellForSelectingAValue.nib(),
                                      forCellReuseIdentifier: CellForSelectingAValue.identifier )
     }
+    @IBAction func backButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+
 }
