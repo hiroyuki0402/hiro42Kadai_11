@@ -14,10 +14,6 @@ class InputViewController: UIViewController {
             prefectureLabel.text = "未選択"
         }
     }
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        print(prefectureLabel.text!)
-    }
     @IBAction private func choicePrefectureButton(_ sender: Any) {
         guard let storyboard: UIStoryboard = self.storyboard else { return }
         guard let choiceVc = storyboard.instantiateViewController(identifier: "prefecture")
