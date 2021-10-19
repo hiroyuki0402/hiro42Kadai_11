@@ -15,9 +15,7 @@ class InputViewController: UIViewController {
         }
     }
     @IBAction private func choicePrefectureButton(_ sender: Any) {
-        guard let storyboard: UIStoryboard = self.storyboard else { return }
-        guard let choiceVc = storyboard.instantiateViewController(identifier: "prefecture")
-                as? ChoicePrefecturesViewController else { return }
+        let choiceVc = ChoicePrefecturesViewController.instantiate()
         let navigationController = UINavigationController(rootViewController: choiceVc)
         navigationController.modalPresentationStyle = .fullScreen
         choiceVc.delegate = self
