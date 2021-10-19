@@ -10,12 +10,7 @@ import UIKit
 class CellForSelectingAValue: UITableViewCell {
     static var identifier = "prefecturesCell"
     @IBOutlet private weak var label: UILabel!
-    override func awakeFromNib() {
-    }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
     func setTextOnLabel(text: String) {
         label.text = text
     }

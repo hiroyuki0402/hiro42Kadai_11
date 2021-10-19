@@ -13,9 +13,16 @@ protocol ChoicePrefecturesViewControllerDelegate: AnyObject {
 
 class ChoicePrefecturesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    @IBOutlet weak var prefectureTableView: UITableView!
+    @IBOutlet private weak var prefectureTableView: UITableView!
     private let prefectures = Prefectures.prefectures()
     weak var delegate: ChoicePrefecturesViewControllerDelegate?
+
+    static func instantiate() -> ChoicePrefecturesViewController {
+        let storyboard = UIStoryboard(name: "prefecture", bundle: nil)
+
+        // swiftlint:disable:next force_cast
+        return storyboard.instantiateInitialViewController() as! ChoicePrefecturesViewController
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,18 +45,22 @@ class ChoicePrefecturesViewController: UIViewController, UITableViewDelegate, UI
         cell.setTextOnLabel(text: prefectures[indexPath.row])
         return cell
     }
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let prefecture = prefectures[indexPath.row]
         delegate?.didSelectPrefecture(prefectureName: prefecture)
         dismiss(animated: true, completion: nil)
     }
+
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 50
     }
+
     private func setUpTableView() {
         prefectureTableView.register(CellForSelectingAValue.nib(),
                                      forCellReuseIdentifier: CellForSelectingAValue.identifier )
     }
+
     @IBAction func backButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
